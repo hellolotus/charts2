@@ -33,7 +33,7 @@ export const ChartWidget = ({
 			datafeed: new BinanceDatafeed(),
 			interval: interval,
 			container: chartContainerRef.current,
-			library_path: '/charting_library/',
+			library_path: process.env.PUBLIC_URL + '/charting_library/',
 			locale: 'en',
 			disabled_features: [
 				'use_localstorage_for_settings',
@@ -47,7 +47,7 @@ export const ChartWidget = ({
 			fullscreen: false,
 			autosize: true,
 			theme: theme,
-			custom_css_url: '/custom.css',
+			custom_css_url: process.env.PUBLIC_URL + '/custom.css',
 			overrides: {
 				'mainSeriesProperties.candleStyle.upColor': '#26a69a',
 				'mainSeriesProperties.candleStyle.downColor': '#ef5350',

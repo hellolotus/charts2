@@ -16,8 +16,17 @@ export const Dashboard = () => {
 				<div className="header-content">
 					<h1 className="dashboard-title">
 						<span className="title-icon">📈</span>
-						NEO Crypto Dashboard
+						NEO Crypto Charts
 					</h1>
+					<a 
+						href="https://congdinh.github.io/charts" 
+						target="_blank" 
+						rel="noopener noreferrer"
+						className="buzz-charts-link"
+						title="Visit Buzz Charts"
+					>
+						🔥 Buzz Charts
+					</a>
 					<div className="header-controls">
 						<div className="view-toggle">
 							<button
