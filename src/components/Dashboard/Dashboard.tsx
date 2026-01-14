@@ -29,7 +29,7 @@ export const Dashboard = () => {
 						NEO Crypto Charts
 					</h1>
 					<a 
-						href="https://congdinh.github.io/charts" 
+						href="https://hellolotus.github.io/charts" 
 						target="_blank" 
 						rel="noopener noreferrer"
 						className="buzz-charts-link"
